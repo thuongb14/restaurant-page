@@ -31,7 +31,7 @@ home()
 
 const tab = document.querySelector('nav');
 tab.addEventListener('click', function(e) {
-    if(e.target.textContent === 'Gourmet') {
+    if(e.target.textContent === 'Gourmet.') {
         home()
     } else if(e.target.textContent === 'MENU') {
         menu()
