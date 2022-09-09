@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+:root {
+    --main: #f8edeb;
+    --black: #2d2e32;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--main);
+    font-family: Karla, sans-serif;
+    overflow: hidden;
+}
+
+header {
+    border-bottom: 1px solid var(--black);
+    height: 70px;
+    padding: 0 0 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+h3 {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+li {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid var(--black);
+    height: 70px;
+    text-align: -webkit-match-parent;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: var(--black);
+    color: white;
+}
+
+.main-photo {
+    width: 45%;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    height: 100%;
+}
+
+.highlight {
+    background-color: var(--black);
+    color: white;
+    padding: 0 10px 0 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.menu {
+    width: 500px;
+    padding: 40px 0 0 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.list {
+    background-color: var(--black);
+    color: white;
+    padding: 0 20px 0 20px;
+    width:fit-content
+}
+
+.location, .contact {
+    height: 90vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 45px;
+}
+
+.text {
+    text-align: center;
+}
