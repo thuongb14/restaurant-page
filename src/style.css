@@ -10,7 +10,6 @@ body {
     box-sizing: border-box;
     background-color: var(--main);
     font-family: Karla, sans-serif;
-    overflow: hidden;
 }
 
 header {
